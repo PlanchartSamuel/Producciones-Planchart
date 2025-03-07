@@ -4,7 +4,7 @@
     font-family: "Montserrat", sans-serif;
     font-style: regular;
     font-weight: 400;   
-    font-size: 2rem;
+    font-size: 3rem;
     color: #fff;
     text-align: left;
 }
@@ -16,6 +16,7 @@
     color: #fff;
     text-align: left;
 }
-.carousel-caption d-none d-md-block {
-    color: #000;
+.carousel-control-prev, .carousel-control-next, .carousel-indicators, .carousel-inner, .carousel-caption, .carousel-item, .d-block{
+    max-height: 25rem;
+    max-width: 40rem;
 }
