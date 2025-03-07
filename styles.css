@@ -16,3 +16,6 @@
     color: #fff;
     text-align: left;
 }
+.carousel-caption d-none d-md-block {
+    color: #000;
+}
