@@ -1,22 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.navbar-brand {
-    font-family: "Montserrat", sans-serif;
-    font-style: regular;
-    font-weight: 400;   
-    font-size: 3rem;
-    color: #fff;
-    text-align: left;
+.html, body{
+    background-image: url("./img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
-.nav-link {
+
+.html, h1{
+    
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;   
+    color: white;
+    font-size: 2.5em;
+}
+
+.html, h2{
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;   
+    color: white;
+    font-size: 1.5em;
+}
+
+.html, p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;   
+    color: white;
+    font-size: 1.2em;
+}
+
+.navbar-brand{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+.navbar-item{
     font-family: "Montserrat", sans-serif;
     font-style: regular;
     font-weight: 400;
-    font-size: 1.2rem;
-    color: #fff;
-    text-align: left;
 }
-.carousel-control-prev, .carousel-control-next, .carousel-indicators, .carousel-inner, .carousel-caption, .carousel-item, .d-block{
-    max-height: 25rem;
-    max-width: 40rem;
-}
+
+.btn-success{
+    background-color: green;
+    border-color: white;
+    }
+
+    .btn-success:hover {
+        background-color: green;
+        border-color: black;
+        }
+
+.btn-primary{
+    background-color: blueviolet;
+    border-color: white;
+    }
+    
+    .btn-primary:hover {
+        background-color: blueviolet;
+        border-color: black;
+    }
